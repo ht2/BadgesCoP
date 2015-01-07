@@ -22,7 +22,8 @@ The usage provides further context about the expectations and intent of how the 
 ### Badges CoP xAPI Verbs
 Verb Term | Verb Description | Authoritative Source | Authoritative Source URI | Usage
 --- | --- | --- | --- | ---
-- | - | - | - | -
+Earned | gain a badge in return for one's behaviour or achievements | Mozilla Open Badges | http://openbadges.org/earn/ | Used to show that a user earned a badge.
+Issued | supply or distribute a badge  | Mozilla Open Badges | http://openbadges.org/issue/ | - Used to show that a user issued a badge.
 
 ## Activities
 The Object in an xAPI statement describes what has been acted upon as a result of the experience. An Activity is the most common type of object in an xAPI statement. It can be a unit of instruction, learning experience, or performance-based activity that is intended to be recorded in a meaningful combination with a Verb. Interpretation of Activity is broad, meaning that Activities can even be real-world objects, digital objects, or non-digital objects. For example, a  printed quiz is an example of a real-world object whereas an online quiz would be an example of a digital object. 
