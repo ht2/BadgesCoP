@@ -20,7 +20,7 @@ VERSION HISTORY
 *	3. 	[Justification](#3-justification)  
     *	3.1 	[Experience API (xAPI)](#31-experience-api-xapi)  
 *	4. 	[Scope](#4-scope)  
-    *	4.1 	[Mission)](#41-mission)   
+    *	4.1 	[Mission](#41-mission)   
     *	4.2 	[Goals](#42-goals)  
     *	4.3 	[Activities & Deliverables](#43-activities--deliverables)  
     *	4.4 	[Leaders/conveners](#44-leadersconveners)  
