@@ -162,7 +162,7 @@ This section describes the key roles supporting the community.
 |  | Communications Lead | Person responsible for establishing mechanisms for communicating with the CoP. This will include coordinating any forms of messaging or collaboration using tools or forums. |
 |  | Technical Lead | Person responsible for providing technical expertise in regards to data formats, web technologies, and programming. |
 
-### 6.2 Stakeholders (Internal and External)
+### 6.2 Stakeholders (Internal & External)
 
 A stakeholder is a person or organization – such as sponsors and the public – that is involved in the community, and/or that could positively or negatively impact the achievement of the community's objectives, and/or whose interests may be positively or negatively affected by the execution or completion of the community. The table below shows the stakeholders currently identified.
 
