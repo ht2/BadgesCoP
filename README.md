@@ -1,4 +1,6 @@
 # Badges CoP
+
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) Community of Practice for Badges
 
 ## Users
