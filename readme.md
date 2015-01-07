@@ -15,4 +15,4 @@ You may contribute to this project via [issues](/issues) and [pull request](/pul
 3. Enter a "commit message" (found below the edited file).
 4. Click commit.
 
-Note that this repository uses Github Flavoured Markdown.
+Note that this repository uses [Github Flavoured Markdown](https://help.github.com/articles/github-flavored-markdown/).
