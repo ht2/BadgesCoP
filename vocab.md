@@ -58,4 +58,5 @@ Activity Term | Description | Resource Type | Context Activities | Produces Resu
 ## Primary POC: 
 [Ben Betts](mailto:ben@ht2.co.uk)
 
-**[Contributors](https://github.com/ht2/BadgesCoP/graphs/contributors)**
+## Members:
+*[Repository Contributors](https://github.com/ht2/BadgesCoP/graphs/contributors)*
