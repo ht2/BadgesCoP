@@ -25,3 +25,5 @@ Collaborators (users that have write access to the repository) should assign a c
     - Confirmed
 
 If a pull request references the issue then work has started, if the issue is closed then it should be considered to be resolved.
+
+Each release should have the following information `version`, `approved by`, `approved date`, `reason`.
