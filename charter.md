@@ -2,18 +2,6 @@
 
 **OPEN BADGES COMMUNITY OF PRACTICE**
 
-Version 0.0.1
-
-2015/01/07
-
-VERSION HISTORY
-
-| Version # | ImplementedBy | RevisionDate | ApprovedBy | ApprovalDate | Reason |
-| --- | --- | --- | --- | --- | --- |
-| 0.0.1 |  |  |  |  | Initial community charter draft |
-|  |  |  |  |  |  |
-|  |  |  |  |  |  |
-
 ##TABLE OF CONTENTS
 *	1. 	[Purpose of the CoP Charter](#1-purpose-of-cop)  
 *	2. 	[CoP Overview](#2-cop-overview)  
