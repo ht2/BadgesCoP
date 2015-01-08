@@ -1,5 +1,5 @@
-# Badges CoP
-> [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) Community of Practice for Badges
+# Open Badges CoP
+> [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) Community of Practice for [Open Badges](http://openbadges.org/)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
