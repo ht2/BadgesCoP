@@ -19,7 +19,7 @@ The authoritative source is an externally referenced lexical database, dictionar
 ### Usage:
 The usage provides further context about the expectations and intent of how the verb might be used in a particular use case or scenario.
 
-### Badges CoP xAPI Verbs
+### Open Badges CoP xAPI Verbs
 Verb Term | Verb Description | Authoritative Source | Authoritative Source URI | Usage
 --- | --- | --- | --- | ---
 Earned | gain a badge in return for one's behaviour or achievements | Mozilla Open Badges | http://openbadges.org/earn/ | Used to show that a user earned a badge.
@@ -51,7 +51,7 @@ Context activities represent the level of granularity and relationship to other 
 ### Produces Result:
 The produces result column states whether the activity will produce a result (yes or no), and the properties that should be expected. This metadata will also help identify the acceptable outcomes when later constructing xAPI statements. This information entered in this column may provide a direct mapping to the properties of the Results Object in the xAPI specification.
 
-### Badges CoP xAPI Activities
+### Open Badges CoP xAPI Activities
 Activity Term | Description | Resource Type | Context Activities | Produces Result
 --- | --- | --- | --- | ---
 - | - | - | - | -
