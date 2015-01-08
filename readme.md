@@ -1,5 +1,5 @@
-[![Open Badges](http://openbadges.org/wp-content/uploads/2013/02/badge-breakout-bottom.png)](https://github.com/ht2/BadgesCoP)
-> [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) [Community of Practice](http://www.adlnet.gov/tla/experience-api/xapi-cop-directory/) for [Open Badges](http://openbadges.org/)
+[![Mozilla Open Badges](http://openbadges.org/wp-content/uploads/2013/02/badge-breakout-bottom.png)](https://github.com/ht2/BadgesCoP)
+> [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) [Community of Practice](http://www.adlnet.gov/tla/experience-api/xapi-cop-directory/) for [Mozilla Open Badges](http://openbadges.org/)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
