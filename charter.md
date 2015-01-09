@@ -50,14 +50,11 @@ The xAPI CoPS will generate a controlled vocabulary lists and design profiles. S
 
 ### 4.2 Goals
 
-The goals of the [Domain Area] Community of Practice are as follows: [tweak all goals as necessary for your CoP]
+The goals of the Open Badges Community of Practice are as follows:
 
-  - Develop a [Domain Area] CoP Profile for xAPI
-  - Look for collaboration points with CoPs outside of [Domain Area]
-  - Develop and support [Domain Area] best practices for xAPI 
-  - Develop [Domain Area] xAPI Controlled Vocabulary
-  - Develop [Domain Area] Design Profiles
-  - [additional goals]
+1. To agree a controlled vocab for the issuing of badges, to include a 'badge assertion' that meets the requirements of the Mozilla Open Badge standard.
+2. To articulate a design profile for appending 'evidence' to an issued Badge, by way of xAPI statements.
+3. To publicise and gain broad agreement for our approach within the community.
 
 ### 4.3 Activities & Deliverables
 
