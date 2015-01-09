@@ -42,7 +42,7 @@ The xAPI CoPS will generate a controlled vocabulary lists and design profiles. S
 
 ### 4.1 Mission
 
-[Your mission should concisely explain the purpose of the xAPI CoP. It should be the basis of decisions made by your group. Consider
+This community of practice will work towards standardising an approach to issuing 'digital badges' as recognition of competence in a given field. Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
 
 - Why should this xAPI CoP exist? 
 - What are the problems/issues/goals that the group may address?
