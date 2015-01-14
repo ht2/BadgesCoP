@@ -55,9 +55,3 @@ The produces result column states whether the activity will produce a result (ye
 Activity Term | Description | Resource Type | Context Activities | Produces Result
 --- | --- | --- | --- | ---
 - | - | - | - | -
-
-## Primary POC: 
-[Ben Betts](mailto:ben@ht2.co.uk)
-
-## Members:
-*[Repository Contributors](https://github.com/ht2/BadgesCoP/graphs/contributors)*
