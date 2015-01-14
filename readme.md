@@ -3,7 +3,7 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). We think that by standardising this combination there are opportunities to analyse pathways to badges, and allow systems to interoperate over a standard API with a standard data model. Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
+This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). We think that by standardising this combination there are opportunities to analyse pathways to badges and allow systems to interoperate over a standard API with a standard data model. Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
 
 1. To agree a controlled vocab for the issuing of badges, to include a 'badge assertion' that meets the requirements of the Mozilla Open Badge standard.
 2. To articulate a design profile for appending 'evidence' to an issued Badge, by way of xAPI statements.
