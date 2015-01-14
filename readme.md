@@ -19,6 +19,6 @@ You may contribute to this project via [issues](/issues) and [pull request](/pul
 1. Open the file you wish to edit on Github.
 2. Edit the file.
 3. Enter a "commit message" (found below the edited file).
-4. Click commit.
+4. Click "Propose file changes" (found below the edited file).
 
 Note that this repository uses [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
