@@ -54,15 +54,12 @@ Initially we will work to the Mozilla Open Badge standard for issuing portable, 
 
 ### 4.3 Activities & Deliverables
 
-|   | **ACTIVITY LIST** | START | FINISH |
-| --- | --- | --- | --- |
-| 1.1 | Establish Community and Register with ADL xAPI Directory |  |  |
-| 1.2 | Complete Community of Practice Charter |  |  |
-| 1.3 | Utilize Online Collaboration Tools: Calendar, google groups, webinars, etc. |  |  |
-| 1.4 | Participate in joint meetings |  |  |
-| 1.5 | Generate controlled vocabulary and design profile(s) |  |  |
-| 1.6 | Provide CoP updates to ADL xAPI CoP |  |  |
-| 1.7 | Regular evaluations of CoP vocabulary |  |  |
+- [x] Establish Community and Register with ADL xAPI Directory
+- [ ] Complete Community of Practice Charter
+- [ ] To agree a controlled vocab for the issuing of badges, to include a 'badge assertion' that meets the requirements of the Mozilla Open Badge standard.
+- [ ] To articulate a design profile for appending 'evidence' to an issued Badge, by way of xAPI statements.
+- [ ] To publicise and gain broad agreement for our approach within the community.
+- [ ] Provide CoP updates to ADL xAPI CoP
 
 ### 4.4 Leaders/conveners
 
