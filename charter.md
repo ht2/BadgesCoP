@@ -56,8 +56,8 @@ Initially we will work to the Mozilla Open Badge standard for issuing portable, 
 
 - [x] Establish Community and Register with ADL xAPI Directory
 - [ ] Complete Community of Practice Charter
-- [ ] Develop [Domain Area] xAPI Controlled Vocabulary
-- [ ] Develop [Domain Area] Design Profiles
+- [ ] Develop OB xAPI Controlled Vocabulary
+- [ ] Develop OB Design Profiles
 - [ ] Provide CoP updates to ADL xAPI CoP
 
 ### 4.4 Leaders/conveners
