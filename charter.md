@@ -24,11 +24,11 @@ The intended audience of the Open Badges Community of Practice community charter
 
 A CoP is a group of people connected by a common cause, role or purpose, which operates in a common modality. CoPS are a way of developing new knowledge, stimulating innovation, and sharing knowledge. Communities of practice knit people together with peers and their outputs can include leading practices, guidelines, knowledge repositories, technical problem and solution discussions, and strategies. Each xAPI CoP represents a group of professionals, informally bound to one another through a common classification of xAPI vocabulary requirements and common pursuit of solutions to satisfy those requirements. 
 
-[Your overview should explain the reason for the community to exist. Consider
+Community benefits:
 
-- What is the long-term and short-term value of the CoP to community members?  The larger xAPI community?
-- What learning opportunities will members have after joining?
-- How will this greater knowledge enhance the domain area?] 
+1. Standardisation to allow systems to interoperate.
+2. Overcome challenges that would cost members time and money.
+3. Helps members reach and provide new opportunities.
 
 ## 3. Justification
 
@@ -42,15 +42,11 @@ The xAPI CoPS will generate a controlled vocabulary lists and design profiles. S
 
 ### 4.1 Mission
 
-This community of practice will work towards standardising an approach to issuing 'digital badges' as recognition of competence in a given field. Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
-
-- Why should this xAPI CoP exist? 
-- What are the problems/issues/goals that the group may address?
-- What will members achieve by joining this xAPI CoP?
+This community of practice will work towards standardising an approach to issuing 'digital badges' as recognition of competence in a given field. This CoP addresses the problems of recording badges and evidence such that systems can interoperate with each other.
 
 ### 4.2 Goals
 
-The goals of the Open Badges Community of Practice are as follows:
+Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
 
 1. To agree a controlled vocab for the issuing of badges, to include a 'badge assertion' that meets the requirements of the Mozilla Open Badge standard.
 2. To articulate a design profile for appending 'evidence' to an issued Badge, by way of xAPI statements.
@@ -70,4 +66,4 @@ The goals of the Open Badges Community of Practice are as follows:
 
 ### 4.4 Leaders/conveners
 
-- [Leaders/conveners will be responsible for leading the meetings and establishing an agenda and objectives for the CoP. The leaders/conveners will be decided by the steering committee. It is recommended that at lest two leaders are chosen for each CoP so that there is a backup person in case one can no longer participate or is absent. List the leaders' names here.]
+- [Ben Betts](ben@ht2.co.uk)
