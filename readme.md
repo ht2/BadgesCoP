@@ -3,21 +3,32 @@
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). We think that by standardising this combination there are opportunities to analyse pathways to badges and allow systems to interoperate over a standard API with a standard data model. Initially we will work to the Mozilla Open Badge standard for issuing portable, evidence-based digital badges. Our work will focus on following initial objectives:
+This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). Initially we will work to the Mozilla Open Badge standard.
+
+Opportunities of xAPI with Open Badges:
+
+1. Analyse pathways to badges.
+2. Issue portable badges (by allowing systems to interoperate over a standard API with a standard data model).
+3. Provide evidence-based badges.
+
+Community benefits:
+
+1. Standardisation to allow systems to interoperate.
+2. Overcome challenges that would cost you time and money.
+2. Helps you reach and provide new opportunities. 
+
+
+Initial objectives:
 
 1. To agree a controlled vocab for the issuing of badges, to include a 'badge assertion' that meets the requirements of the Mozilla Open Badge standard.
 2. To articulate a design profile for appending 'evidence' to an issued Badge, by way of xAPI statements.
 3. To publicise and gain broad agreement for our approach within the community.
 
-These communities help you to overcome challenges that would otherwise have been costly (in terms of both time and money), and help you to reach and provide new opportunities. Sometimes these are challenges and opportunities that you didn't know existed.
-
-If you share our passion and have a few minutes to discuss your experiences, we think that everyone could benefit. Discussions are taking place in the [CoP chat](https://gitter.im/ht2/BadgesCoP) and we'd really appreciate you joining in.
-
 ## Users
 Please see our [charter](/charter.md) and [controlled vocabulary](/vocab.md) for practice details.
 
 ## Contributors
-You may contribute to this project via [issues](/issues) and [pull request](/pulls), however, please see the [guidelines](/contributing.md) before doing so.
+You may contribute to this project via [issues](/issues) and [pull request](/pulls), however, please see the [guidelines](/contributing.md) before doing so. If you share our passion and have a few minutes to discuss your experiences, we think that everyone could benefit. Discussions are taking place in the [CoP chat](https://gitter.im/ht2/BadgesCoP) and we'd really appreciate you joining in.
 
 ### Getting Started
 1. Open the file you wish to edit on Github.
