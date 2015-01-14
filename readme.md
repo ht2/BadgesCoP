@@ -11,7 +11,7 @@ This community of practice (CoP) will work towards standardising an approach to 
 
 These communities help you to overcome challenges that would otherwise have been costly (in terms of both time and money), and help you to reach and provide new opportunities. Sometimes these are challenges and opportunities that you didn't know existed.
 
-If you share our passion and have a few minutes to discuss your experiences in the [chat](https://gitter.im/ht2/BadgesCoP), we think that everyone could benefit.
+If you share our passion and have a few minutes to discuss your experiences, we think that everyone could benefit. Discussions are taking place in the [CoP chat](https://gitter.im/ht2/BadgesCoP) and we'd really appreciate you joining in.
 
 ## Users
 Please see our [charter](/charter.md) and [controlled vocabulary](/vocab.md) for practice details.
