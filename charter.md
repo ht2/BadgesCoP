@@ -66,5 +66,8 @@ This CoP will work towards standardising an approach to combining the xAPI with 
 - [ ] Provide CoP updates to ADL xAPI CoP
 
 ### 4.4 Leaders/conveners
+#### Primary POC: 
+[Ben Betts](mailto:ben@ht2.co.uk)
 
-- [Ben Betts](ben@ht2.co.uk)
+#### Members:
+*[Repository Contributors](https://github.com/ht2/BadgesCoP/graphs/contributors)*
