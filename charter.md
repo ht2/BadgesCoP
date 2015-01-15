@@ -52,9 +52,9 @@ Community benefits:
 
 This CoP will work towards standardising an approach to combining the xAPI with OBs such that the opportunities and challenges of the combination are addressed. The opportunities of xAPI with OBs are:
 
-1. Analyse pathways to badges.
-2. Issue portable badges (by allowing systems to interoperate over a standard API with a standard data model).
-3. Provide evidence-based badges.
+1. Transport: Issue portable badges (over a standard API with a standard data model).
+2. Evidence: Provide evidence-based badges.
+3. Analysis: Analyse pathways to badges.
 
 ### 4.3 Activities & Deliverables
 
