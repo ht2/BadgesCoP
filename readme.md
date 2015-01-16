@@ -2,8 +2,11 @@
 > [xAPI](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md) [Community of Practice](http://www.adlnet.gov/tla/experience-api/xapi-cop-directory/) for [Mozilla Open Badges](http://openbadges.org/)
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ht2/BadgesCoP?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join this Community](http://ht2dev.com/clients/ht2/cop_join_15_50.svg)](https://github.com/ht2/BadgesCoP/subscription)
 
 This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). Initially we will work to the Mozilla Open Badge standard.
+
+If you're interested in this community please "star" this repository. If you would like to join this community please ["watch"](https://github.com/ht2/BadgesCoP/subscription) this repository and [join the chat](https://gitter.im/ht2/BadgesCoP).
 
 ## Users
 Please see our [charter](/charter.md) and [controlled vocabulary](/vocab.md) for practice details.
