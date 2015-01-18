@@ -23,4 +23,11 @@ You may contribute to this project via [issues](/issues) and [pull request](/pul
 3. Enter a "commit message" (found below the edited file).
 4. Click "Propose file changes" (found below the edited file).
 
+Alternatively:
+
+1. [Fork](/fork) the repository.
+2. Change the markdown documentation files.
+3. Commit and push your changes to Github.
+4. Create a [pull request](/pulls) on Github (ensuring that you follow the [guidelines](/contributing.md)).
+
 Note that this repository uses [Github Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
