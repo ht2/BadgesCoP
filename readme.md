@@ -9,7 +9,7 @@ This community of practice (CoP) will work towards standardising an approach to 
 If you're interested in this community please "star" this repository. If you would like to join this community please ["watch"](https://github.com/ht2/BadgesCoP/subscription) this repository and [join the chat](https://gitter.im/ht2/BadgesCoP).
 
 ## Events
-- [Learning Tech](http://www.learningtechnologies.co.uk/). Join our [meetup](https://doodle.com/326w2acbu6i8smyb).
+- [Learning Tech](http://www.learningtechnologies.co.uk/), London, UK. Join our [meetup](https://doodle.com/326w2acbu6i8smyb).
 
 ## Resources
 - [Experience Badges Paper](https://docs.google.com/document/d/1skr2xugXBWNkd6t4geiJyTPqjOqAfKpzc7hOKKmtRQ0/edit?usp=sharing)
