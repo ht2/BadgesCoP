@@ -55,4 +55,4 @@ Activity Term | Description | Resource Type | Context Activities | Produces Resu
 --- | --- | --- | --- | ---
 Badge | an online representation of a skill you’ve earned | information resource | - | - 
 
-When the activity is a badge, `object.definition.type` should be set to `http://activitystrea.ms/schema/1.0/badge` and the `object.id` should be URL of the badge class definition.
+When the activity is a badge, `object.definition.type` should be set to `http://activitystrea.ms/schema/1.0/badge` and the `object.id` should be set to the URL of the badge class definition.
