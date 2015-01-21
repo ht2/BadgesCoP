@@ -24,6 +24,8 @@ Verb Term | Verb Description | Authoritative Source | Authoritative Source URI |
 --- | --- | --- | --- | ---
 earned | gain a badge in return for one's behaviour or achievements | Mozilla Open Badges | http://openbadges.org/xapi/verbs/earned | Used to show that a user earned a badge.
 
+When the verb is "earned", the `verb.id` should be `http://openbadges.org/xapi/verbs/earned`. Additionally the `context.extension` should have `http://www.example.com/define/extension/open-badge-assertion` set to the URL of the assertion.
+
 ## Activities
 The Object in an xAPI statement describes what has been acted upon as a result of the experience. An Activity is the most common type of object in an xAPI statement. It can be a unit of instruction, learning experience, or performance-based activity that is intended to be recorded in a meaningful combination with a Verb. Interpretation of Activity is broad, meaning that Activities can even be real-world objects, digital objects, or non-digital objects. For example, a  printed quiz is an example of a real-world object whereas an online quiz would be an example of a digital object. 
 
