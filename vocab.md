@@ -8,8 +8,8 @@ xAPI Property | Identifier | Description
 --- | --- | ---
 verb.id | [Earned](http://specification.openbadges.org/xapi/verbs/earned.json) | States the `actor` earned the `object`.
 context.contextActivities.category.N.id | [Open Badges Recipe](http://specification.openbadges.org/xapi/recipe/base/0) | States the `statement` uses the Open Badges recipe.
-attachments.usageType | [Badge Attachment](http://specification.openbadges.org/xapi/attachment/badge.json) | States the `attachment` is a badge.
-object.definition.type | [Badge Object](http://activitystrea.ms/schema/1.0/badge) | States that the `object` is a badge.
+attachments.usageType | [Badge Attachment](http://specification.openbadges.org/xapi/attachment/badge.json) | Contains an xAPI Badge Assertion Object.
+object.definition.type | [Badge Object](http://activitystrea.ms/schema/1.0/badge) | Contains an xAPI Badge Class Object.
 
 ## Extensions
 *Use the IRIs hyperlinked to the text in the extension column, rather than the words themselves.*
