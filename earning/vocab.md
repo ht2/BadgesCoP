@@ -1,5 +1,5 @@
 # Vocabulary
-This document defines the identifiers and extensions used in the **earning** recipe.
+This document defines the identifiers and extensions used in the **earning** OBs.
 
 ## Identifiers
 *Use the IRIs hyperlinked to the text in the identifiers column, rather than the words themselves.*
