@@ -6,6 +6,9 @@
 
 This community of practice (CoP) will work towards standardising an approach to combining the xAPI with Open Badges (OBs). Initially we will work to the Mozilla Open Badge standard. [Read more about the use cases...](https://docs.google.com/document/d/1skr2xugXBWNkd6t4geiJyTPqjOqAfKpzc7hOKKmtRQ0/edit?usp=sharing)
 
-If you're interested in this community please "star" this repository. If you would like to join this community please ["watch"](https://github.com/ht2/BadgesCoP/subscription) this repository and [join the chat](https://gitter.im/ht2/BadgesCoP). You can also [see examples of our best practices](/examples), [check out our vocab](/vocab.md), and [contribute](/contributing.md).
+If you're interested in this community please "star" this repository. If you would like to join this community please ["watch"](https://github.com/ht2/BadgesCoP/subscription) this repository and [join the chat](https://gitter.im/ht2/BadgesCoP). You can also [see our recipes](#recipes) and [contribute](/contributing.md).
 
 If you have a problem, enhancement, or question for the community, please post it as an [issue in this repository](/contributing.md#issues) or a [message in the chat](https://gitter.im/ht2/BadgesCoP).
+
+## Recipes
+1. [Badge Earning](/earning)
