@@ -1,9 +1,3 @@
-# Recording Earns
-## Endpoint
-[POST http://www.example.com/xapi/statements](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#stmtapipost)
-
-## Request Body
-```json
 {
   "verb": {
     "id": "http://specification.openbadges.org/xapi/verbs/earned.json",
@@ -60,4 +54,3 @@
     "objectType": "Activity"
   }
 }
-```
