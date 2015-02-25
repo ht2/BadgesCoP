@@ -8,8 +8,7 @@ If you are reporting an issue, please click the links below and your issue will 
 - [Question](../../issues/new?title={{Brief description of your question}}&body={{question}}%3F): asks how a feature should be used or what the feature does.
 
 ## Pull Requests
-- Must be in response to an issue.
-- Must reference the correspoding issue in the description of the pull request.
+A PR must be in response to an issue and must reference the issue in the description of the pull request.
 
 1. Open the file you wish to edit on Github.
 2. Edit the file.
