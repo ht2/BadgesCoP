@@ -27,9 +27,9 @@ Collaborators (users that have write access to the repository) should assign a c
     - Enhancement
     - Question
 - Status
-    - Unconfirmed
-    - Confirmed
-    - Unmerged
+    - Unconfirmed (reported but not been reproduced)
+    - Confirmed (been reproduced but not fixed)
+    - Unmerged (been fixed but not merged/tested)
 
 If a pull request references the issue then work has started, if the issue is closed then it should be considered to be resolved.
 
