@@ -38,10 +38,10 @@
     "definition": {
       "extensions": {
         "http://specification.openbadges.org/xapi/extensions/badgeclass.json": {
-          "@id": "www.example.com/badgeclass/1",
-          "image": "www.example.com/badgeimage/1",
-          "criteria": "www.example.com/criteria/1",
-          "issuer": "www.example.com/issuer/1"
+          "@id": "http://www.example.com/badgeclass/1",
+          "image": "http://www.example.com/badgeimage/1",
+          "criteria": "http://www.example.com/criteria/1",
+          "issuer": "http://www.example.com/issuer/1"
         }
       },
       "name": {
