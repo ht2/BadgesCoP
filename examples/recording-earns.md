@@ -1,3 +1,4 @@
+```json
 {
   "verb": {
     "id": "http://specification.openbadges.org/xapi/verbs/earned.json",
@@ -54,3 +55,4 @@
     "objectType": "Activity"
   }
 }
+```
