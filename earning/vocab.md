@@ -7,7 +7,7 @@ This document defines the identifiers and extensions used for OB Earning.
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Earned](http://specification.openbadges.org/xapi/verbs/earned.json) | States the `actor` earned the `object`. | Yes
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/base/0) | States the `statement` uses the OBs recipe. | Yes
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/base/0) | States the `statement` uses the OB recipe. | Yes
 attachments.usageType | [OB Attachment](http://specification.openbadges.org/xapi/attachment/badge.json) | Contains an xAPI OB Assertion Object. | Yes
 object.definition.type | [OB Object](http://activitystrea.ms/schema/1.0/badge) | Contains an xAPI OB Class Object. | Yes
 
