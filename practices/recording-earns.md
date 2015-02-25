@@ -19,9 +19,6 @@
     }
   },
   "context": {
-    "extensions": {
-      "http://id.tincanapi.com/extension/jws-certificate-location": "http://www.example.com/cert.pem"
-    },
     "contextActivities": {
       "category": [{
         "id": "http://specification.openbadges.org/xapi/recipe/base/0",
@@ -64,6 +61,3 @@
   }
 }
 ```
-
-## Notes
-`context.extensions.http://id.tincanapi.com/extension/jws-certificate-location` should only be used when the Badge has been signed using JWS.`
