@@ -38,7 +38,7 @@
       "extensions": {
         "http://specification.openbadges.org/xapi/extensions/badgeclass.json": {
           "@id": "http://www.example.com/badgeclass/1",
-          "image": "http://www.example.com/badgeimage/1",
+          "image": "http://www.example.com/badgeimage/1.png",
           "criteria": "http://www.example.com/criteria/1",
           "issuer": "http://www.example.com/issuer/1"
         }
