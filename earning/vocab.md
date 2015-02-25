@@ -31,6 +31,6 @@ Property | Type | Description | Required
 Property | Type | Description | Required
 --- | --- | --- | ---
 @id | IRI | Link to the OB class. | Yes
-image | IRI | Link to the OB image. | Yes
-criteria | IRI | Link to the OB criteria | Yes
-issuer | IRI | Link to the OB issuer | Yes
+image | IRI | Link to the OB image. | Recommended
+criteria | IRI | Link to the OB criteria | Recommended
+issuer | IRI | Link to the OB issuer | Recommended
