@@ -15,7 +15,7 @@
   "context": {
     "contextActivities": {
       "category": [{
-        "id": "http://specification.openbadges.org/xapi/recipe/base/0_0_1",
+        "id": "http://specification.openbadges.org/xapi/recipe/base/0_0_2",
         "definition": {
           "type": "http://id.tincanapi.com/activitytype/recipe"
         },
