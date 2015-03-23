@@ -33,7 +33,7 @@
     "sha2": "42a33cb2af34603730577c2e5ddd78858feb34860c4e5bf0f473fa7456d3994a"
   }],
   "object": {
-    "id": "www.example.com/badge/1",
+    "id": "http://www.example.com/badgeclass/1",
     "definition": {
       "extensions": {
         "http://specification.openbadges.org/xapi/extensions/badgeclass.json": {
