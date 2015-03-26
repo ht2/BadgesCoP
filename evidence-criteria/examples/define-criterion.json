@@ -62,7 +62,8 @@
             },
             "description": {
                 "en-US": "Visit the main page of the TinBadges Prototype"
-            }
+            }, 
+            "type": "http://specification.openbadges.org/xapi/activitytype/criterion"
         },
         "objectType": "Activity"
     }

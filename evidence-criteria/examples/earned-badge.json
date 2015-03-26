@@ -94,8 +94,14 @@
                     "issuer": "http://example.com/TinBadgesPHP/resources/issuer.php?activity-id=http%3A%2F%2Ftincanapi.com"
                 },
                 "http://specification.openbadges.org/xapi/extensions/criteria": [
-                    "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=1",
-                    "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=3"
+                    {
+                        "id": "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=1",
+                        "objectType": "Activity" 
+                    },
+                    {
+                        "id": "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=3",
+                        "objectType": "Activity" 
+                    }
                 ]
             },
             "name": {
