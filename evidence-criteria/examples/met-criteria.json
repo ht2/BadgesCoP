@@ -1,0 +1,76 @@
+{
+    "id": "48d28509-2757-4ffb-a06b-9a0c3d3ca11a",
+    "actor": {
+        "name": "Default Example Name",
+        "mbox": "mailto:f989028e-4432-45c0-ae77-704690a01c73@example.com",
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://specification.openbadges.org/xapi/verbs/met-criteria",
+        "display": {
+            "en": "met criteria"
+        }
+    },
+    "result": {
+        "extensions": {
+            "http://specification.openbadges.org/xapi/extensions/criteria-evidence": [
+                {
+                    "objectType": "StatementRef",
+                    "id": "dbeef3b3-ab1a-4420-8423-0db631b4f467"
+                }
+            ]
+        }
+    },
+    "context": {
+        "contextActivities": {
+            "category": [
+                {
+                    "id": "http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1",
+                    "definition": {
+                        "type": "http://id.tincanapi.com/activitytype/recipe"
+                    },
+                    "objectType": "Activity"
+                }
+            ]
+        }
+    },
+    "timestamp": "2015-03-26T14:00:09.000Z",
+    "stored": "2015-03-26T14:00:10.581Z",
+    "authority": {
+        "name": "badges test",
+        "account": {
+            "homePage": "http://cloud.scorm.com/",
+            "name": "YvIMOiHt7Gch50Eq1MI"
+        },
+        "objectType": "Agent"
+    },
+    "version": "1.0.0",
+    "object": {
+        "id": "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=1",
+        "definition": {
+            "extensions": {
+                "http://specification.openbadges.org/xapi/extensions/criteria-metadata": {
+                    "templateId": "e4f05a1a-fd15-4847-a565-2c55ee9bda59",
+                    "type": "match"
+                },
+                "http://specification.openbadges.org/xapi/extensions/criteria-templates": {
+                    "e4f05a1a-fd15-4847-a565-2c55ee9bda59": {
+                        "verb": {
+                            "id": "http://adlnet.gov/expapi/verbs/experienced"
+                        },
+                        "object": {
+                            "id": "http://example.com/TinBadgesPHP"
+                        }
+                    }
+                }
+            },
+            "name": {
+                "en-US": "Experience the TinBadges Prototype main page."
+            },
+            "description": {
+                "en-US": "Visit the main page of the TinBadges Prototype"
+            }
+        },
+        "objectType": "Activity"
+    }
+}

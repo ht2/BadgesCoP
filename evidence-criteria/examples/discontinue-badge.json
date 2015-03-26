@@ -1,0 +1,45 @@
+{
+    "id": "d2d85433-c792-44fd-8fdb-6f9fc633269a",
+    "actor": {
+        "name": "Tin Badges Prototype Admin",
+        "account": {
+            "homePage": "http://example.com/TinBadgesPHP",
+            "name": "admin"
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://specification.openbadges.org/xapi/verbs/discontinue-badge-class",
+        "display": {
+            "en": "stopped awarding an Open Badge"
+        }
+    },
+    "context": {
+        "contextActivities": {
+            "category": [
+                {
+                    "id": "http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1",
+                    "definition": {
+                        "type": "http://id.tincanapi.com/activitytype/recipe"
+                    },
+                    "objectType": "Activity"
+                }
+            ]
+        }
+    },
+    "timestamp": "2015-03-26T13:59:20.000Z",
+    "stored": "2015-03-26T13:59:28.355Z",
+    "authority": {
+        "name": "badges test",
+        "account": {
+            "homePage": "http://cloud.scorm.com/",
+            "name": "YvIMOiHt7Gch50Eq1MI"
+        },
+        "objectType": "Agent"
+    },
+    "version": "1.0.0",
+    "object": {
+        "id": "http://example.com/TinBadgesPHP/resources/badge-definition.php?badge-id=1",
+        "objectType": "Activity"
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": "e04ce59c-4fef-4c3a-a5fa-7ec69cc01baa",
+    "actor": {
+        "name": "Tin Badges Prototype Admin",
+        "account": {
+            "homePage": "http://example.com/TinBadgesPHP",
+            "name": "admin"
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://specification.openbadges.org/xapi/verbs/defined-issuer",
+        "display": {
+            "en": "defined Open Badge issuer"
+        }
+    },
+    "context": {
+        "contextActivities": {
+            "category": [
+                {
+                    "id": "http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1",
+                    "definition": {
+                        "type": "http://id.tincanapi.com/activitytype/recipe"
+                    },
+                    "objectType": "Activity"
+                }
+            ]
+        }
+    },
+    "timestamp": "2015-03-26T13:59:20.000Z",
+    "stored": "2015-03-26T13:59:28.341Z",
+    "authority": {
+        "name": "badges test",
+        "account": {
+            "homePage": "http://cloud.scorm.com/",
+            "name": "YvIMOiHt7Gch50Eq1MI"
+        },
+        "objectType": "Agent"
+    },
+    "version": "1.0.0",
+    "object": {
+        "id": "http://tincanapi.com",
+        "definition": {
+            "name": {
+                "en-US": "Example Tin Organization"
+            },
+            "description": {
+                "en-US": "An example organization who issued this example Open Badge with Tin Can!"
+            }
+        },
+        "objectType": "Activity"
+    }
+}
