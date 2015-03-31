@@ -1,13 +1,13 @@
 {
   "verb": {
-    "id": "http://specification.openbadges.org/xapi/verbs/earned.json",
+    "id": "http://specification.openbadges.org/xapi/verbs/earned",
     "display": {
       "en-US": "earned"
     }
   },
   "result": {
     "extensions": {
-      "http://specification.openbadges.org/xapi/extensions/badgeassertion.json": {
+      "http://specification.openbadges.org/xapi/extensions/badgeassertion": {
         "@id": "http://www.example.com/assertion/1"
       }
     }
@@ -15,7 +15,7 @@
   "context": {
     "contextActivities": {
       "category": [{
-        "id": "http://specification.openbadges.org/xapi/recipe/base/0_0_1",
+        "id": "http://specification.openbadges.org/xapi/recipe/base/0_0_2",
         "definition": {
           "type": "http://id.tincanapi.com/activitytype/recipe"
         },
@@ -24,7 +24,7 @@
     }
   },
   "attachments": [{
-    "usageType": "http://specification.openbadges.org/xapi/attachment/badge.json",
+    "usageType": "http://specification.openbadges.org/xapi/attachment/badge",
     "display": {
       "en-US": "Name of the badge"
     },
@@ -36,7 +36,7 @@
     "id": "http://www.example.com/badgeclass/1",
     "definition": {
       "extensions": {
-        "http://specification.openbadges.org/xapi/extensions/badgeclass.json": {
+        "http://specification.openbadges.org/xapi/extensions/badgeclass": {
           "@id": "http://www.example.com/badgeclass/1",
           "image": "http://www.example.com/badgeimage/1.png",
           "criteria": "http://www.example.com/criteria/1",
