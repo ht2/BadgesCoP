@@ -126,10 +126,10 @@ each type and lists the properties that are valid with each.
 
  Type | Description | Valid properties 
 --- | --- | --- 
-match | The statement about the learner's activity matches all the fields provided in the template. | templateId, value
-capture | --- | templateId, captureIndex, aggregate, predicate, value
-subset | --- | value, subCriteria
-group | --- | grouping, subCriteria
+match | A simple comparision of the statement to the template. [See Below](#criteria-metadata-match) | templateId, value
+capture | Used to compare statement values to aggregate and preciate rules e.g. average score greater than 7. [See Below](#criteria-metadata-capture) | templateId, captureIndex, aggregate, predicate, value
+subset | Used when the criteria contains sub criteria, some of which must be met. | value, subCriteria
+group | Used when the criteria contains sub criteria, all of which must be met. | grouping, subCriteria
 
 <a name="criteria-metadata-process"/>
 ### Badge award process
@@ -146,9 +146,9 @@ conditions are true:
 
 <a name="criteria-metadata-capture"/>
 #### Capture process
-For 'capture' type criteria, in order for data from statement to statisfy a criterion, in order for data 
+For 'capture' type criteria, in order for data 
 from statement to statisfy a criterion, that statement must
-match one of the defined templates with capture values (values marked with a "#")compared to the values 
+match one of the defined templates with capture values (values marked with a "#") compared to the values 
 in the statement. 
 
 A statement matches a template when both the following conditions are true:
