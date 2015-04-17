@@ -14,8 +14,8 @@ This Statement MUST include an Activity Definition with a name in at least one l
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Defined Open Badge issuer](http://specification.openbadges.org/xapi/verbs/defined-issuer) | States that the actor defined the specified badge issuer. | Required
-object.definition.type | [OB Issuer](http://specification.openbadges.org/xapi/activitytype/issuer) | States that the `object` is an OB issuer. | Required
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+object.definition.type | [OB Issuer](http://specification.openbadges.org/xapi/activitytype/issuer) | States that the activity is an OB issuer. | Required
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 ### Extensions
 None
@@ -34,16 +34,16 @@ This Statement MUST include an Activity Definition with a name and description i
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Defined Open Badge criterion](http://specification.openbadges.org/xapi/verbs/defined-badge-criterion) | States that the actor defined the specified criterion. | Required
-object.definition.type | [OB Criterion](http://specification.openbadges.org/xapi/activitytype/criterion) |  States that the `object` is an OB criterion. | Required
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+object.definition.type | [OB Criterion](http://specification.openbadges.org/xapi/activitytype/criterion) |  States that the activity is an OB criterion. | Required
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 ### Extensions
 *Use the IRIs hyperlinked to the text in the extension column, rather than the words themselves.*
 
 xAPI Property | Extension | Description | Required
 --- | --- | --- | ---
-object.definition.extensions | [Criteria Metadata](http://specification.openbadges.org/xapi/extensions/criteria-metadata) | [See below](#templates-metadata) | Required
-object.definition.extensions | [Criteria Templates](http://specification.openbadges.org/xapi/extensions/criteria-templates) | [See below](#templates-metadata) | Required
+object.definition.extensions | [Criteria Metadata](http://specification.openbadges.org/xapi/extensions/criteria-metadata) | [See xapi-extensions.md](xapi-extensions.md#criteria-metadata) | Required
+object.definition.extensions | [Criteria Templates](http://specification.openbadges.org/xapi/extensions/criteria-templates) | [See xapi-extensions.md](xapi-extensions.md#criteria-metadata) | Required
 
 ### [Example](examples/define-criterion.json)
 
@@ -60,8 +60,8 @@ This Statement MUST include an Activity Definition with a name and description i
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Created Open Badge](http://specification.openbadges.org/xapi/verbs/created-badge-class) |States that the actor created a new Open Badge to be awarded. | Required
-object.definition.type | [OB Object](http://activitystrea.ms/schema/1.0/badge) | States that the `object` is an OB. | Required
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+object.definition.type | [OB Object](http://activitystrea.ms/schema/1.0/badge) | States that the activity is an OB. | Required
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 
 ### Extensions
@@ -69,14 +69,14 @@ context.contextActivities.category.N.id | [OB Recipe](http://specification.openb
 
 xAPI Property | Extension | Description | Required
 --- | --- | --- | ---
-object.definition.extensions | [Badge Class](http://specification.openbadges.org/xapi/extensions/badgeclass) | [See below](#badge-class) | Required
-object.definition.extensions | [Criteria List](http://specification.openbadges.org/xapi/extensions/criteria) | [See below](#criteria-list) | Required
+object.definition.extensions | [Badge Class](http://specification.openbadges.org/xapi/extensions/badgeclass) | [See xapi-extensions.md](xapi-extensions.md#badge-class) | Required
+object.definition.extensions | [Criteria List](http://specification.openbadges.org/xapi/extensions/criteria) | [See xapi-extensions.md](xapi-extensions.md#criteria-list) | Required
 
 ### [Example](examples/define-badge.json)
 
 <a name="archive-badge"/>
 ## Archive Badge
-Asserts that from the specified timestamp, the Badge should no longer be awarded. The specified timestamp
+Asserts that from the specified timestamp, the badge should no longer be awarded. The specified timestamp
 MUST be the current time. Systems receiving this statement are requested to stop awarding the badge immediately,
 even for activities that occured prior to this statement being issued. Systems should not revoke badges
 on the basis of this statement. Systems issuing this statement should allow a reasonable tollerance for
@@ -91,8 +91,8 @@ Definition was included when the Badge Class was created, it does not need to be
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Archived Open Badge](http://specification.openbadges.org/xapi/verbs/archive-badge-class) |States that the actor created a new Open Badge to be awarded. | Required
-object.definition.type | [OB Object](http://activitystrea.ms/schema/1.0/badge) | States that the `object` is an OB. | Not Recommended
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+object.definition.type | [OB Object](http://activitystrea.ms/schema/1.0/badge) | States that the activity is an OB. | Not Recommended
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 ### Extensions
 The same Activity Definition Extensions as for creating a badge MAY be used, however including the
@@ -145,8 +145,8 @@ The Activity Definition is optional for this statement as the criterion has alre
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
 verb.id | [Met criteria](http://specification.openbadges.org/xapi/verbs/met-criteria) | States that the actor met the specified criterion. | Required
-object.definition.type | [OB Criterion](http://specification.openbadges.org/xapi/activitytype/criterion) | States that the `object` is an OB criterion. | Optional
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+object.definition.type | [OB Criterion](http://specification.openbadges.org/xapi/activitytype/criterion) | States that the activity is an OB criterion. | Optional
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 
 ### Extensions
@@ -154,15 +154,15 @@ context.contextActivities.category.N.id | [OB Recipe](http://specification.openb
 
 xAPI Property | Extension | Description | Required
 --- | --- | --- | ---
-object.definition.extensions | [Criteria Metadata](http://specification.openbadges.org/xapi/extensions/criteria-metadata) | [See below](#templates-metadata) | Optional
-object.definition.extensions | [Criteria Templates](http://specification.openbadges.org/xapi/extensions/criteria-templates) | [See below](#templates-metadata) | Optional
+object.definition.extensions | [Criteria Metadata](http://specification.openbadges.org/xapi/extensions/criteria-metadata) | [See xapi-extensions.md](xapi-extensions.md#criteria-metadata) | Optional
+object.definition.extensions | [Criteria Templates](http://specification.openbadges.org/xapi/extensions/criteria-templates) | [See xapi-extensions.md](xapi-extensions.md#criteria-metadata) | Optional
 results.extensions | [Criteria Evidence](http://specification.openbadges.org/xapi/extensions/criteria-evidence) | Array of [Statement Reference Objects](https://github.com/adlnet/xAPI-Spec/blob/master/xAPI.md#statement-references) | Required
 
 ### [Example](examples/met-criteria.json)
 
 <a name="earned-badge"/>
 ## Earned Badge
-This statement is already covered by the [OB Earning](../earning/) recipe. The same steructure is used here, 
+This statement is already covered by the [OB Earning](../earning/) recipe. The same structure is used here, 
 with the additional identifiers and extensions listed below. Both recipes MUST be included in as 
 'category' Context Activties. 
 
@@ -178,15 +178,15 @@ the 'created badge' statement. This is to facilitate interoperbility with system
 
 xAPI Property | Identifier | Description | Required
 --- | --- | --- | ---
-context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the `statement` uses the OB evidence and criteria recipe. | Required
+context.contextActivities.category.N.id | [OB Recipe](http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1) | States the statement uses the OB evidence and criteria recipe. | Required
 
 ### Extensions
 *Use the IRIs hyperlinked to the text in the extension column, rather than the words themselves.*
 
 xAPI Property | Extension | Description | Required
 --- | --- | --- | ---
-object.definition.extensions | [Badge Class](http://specification.openbadges.org/xapi/extensions/badgeclass) | [See below](#badge-class) | Required
-object.definition.extensions | [Criteria List](http://specification.openbadges.org/xapi/extensions/criteria) | [See below](#criteria-list) | Required
-result.extensions | [Badge Evidence](http://specification.openbadges.org/xapi/extensions/evidence) | [See below](#badge-evidence) | Required
+object.definition.extensions | [Badge Class](http://specification.openbadges.org/xapi/extensions/badgeclass) | [See xapi-extensions.md](xapi-extensions.md#badge-class) | Required
+object.definition.extensions | [Criteria List](http://specification.openbadges.org/xapi/extensions/criteria) | [See xapi-extensions.md](xapi-extensions.md#criteria-list) | Required
+result.extensions | [Badge Evidence](http://specification.openbadges.org/xapi/extensions/evidence) | [See below](xapi-extensions.md#badge-evidence) | Required
 
-### [Example](examples/earned-badge.json))
+### [Example](examples/earned-badge.json)

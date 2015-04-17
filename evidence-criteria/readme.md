@@ -15,11 +15,11 @@ This directory defines the [vocabulary](vocab.md) and provides [examples](#examp
 - [Badge Class Localization](vocab.md#badge-class-localization)
 
 ### Examples
-- [Define a badge](examples/define-badge.json)
-- [Define a criterion](examples/define-criterion.json)
-- [Define an issuer](examples/define-issuer.json)
-- [Archive a badge](examples/archive-badge.json)
+- [Define a Badge](examples/define-badge.json)
+- [Define a Criterion](examples/define-criterion.json)
+- [Define an Issuer](examples/define-issuer.json)
+- [Archive a Badge](examples/archive-badge.json)
 - [Update a Badge](examples/update-badge.json)
-- [Meet criteria](examples/met-criteria.json)
+- [Meet Criteria](examples/met-criteria.json)
 - [Earn a Badge](examples/earned-badge.json)
 
