@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "xAPI Criteria",
+  "description": "An extension that links to a JSON document containing a machine readable xAPI Badge Criteria object",
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["url"]
+}

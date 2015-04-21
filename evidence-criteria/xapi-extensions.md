@@ -8,7 +8,7 @@ The Badge Class Object is the same as defined within the [OB Earning](../earning
 required property 'xapi-criteria'. Like the 'criteria' property, this contains an IRI pointing to a resource 
 outlining the criteria for the badge. 
 
-Unlike the 'criteria' property, which points to a human-readbale HTML document,
+Unlike the 'criteria' property, which points to a human-readbable HTML document,
 the 'xapi-criteria' property points to a machine readable JSON document. This JSON Document contains an array
 of xAPI Activity Definitions for all of the criteria required by the badge. These Activity Definitions MUST
 include a name and description in at least one language and the [Activity Definition Extensions for
@@ -142,7 +142,7 @@ match one of the defined templates, but capture values (values marked with a "#"
 A statement matches a template when both the following
 conditions are true:
 1. All of the template's literal property values must be present in the statement and contain the same value.
-2. All of the template's captured values must be present in the statement, but may contain anyvalue.
+2. All of the template's captured values must be present in the statement, but may contain any value.
 
 <a name="criteria-metadata-capture"/>
 #### Capture process
