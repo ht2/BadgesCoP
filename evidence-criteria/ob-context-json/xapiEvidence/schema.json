@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "xAPI Evidence",
+  "description": "An extension that points to a JSON document containing a Badge Evidence object",
+  "type": "object",
+  "properties": {
+    "url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["url"]
+}

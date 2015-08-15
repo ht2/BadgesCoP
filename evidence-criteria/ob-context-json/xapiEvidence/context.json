@@ -1,0 +1,13 @@
+{
+  "@context": {
+    "obi": "https://w3id.org/openbadges#",
+    "extensions": "https://w3id.org/openbadges/extensions#",
+    "url": "extensions:#xapiEvidence",
+  },
+  "obi:validation": [
+    {
+      "obi:validatesType": "extensions#xapiEvidence",
+      "obi:validationSchema": "http://specification.openbadges.org/extensions/xapiEvidence/schema.json"
+    }
+  ]
+}

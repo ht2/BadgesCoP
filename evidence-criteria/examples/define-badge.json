@@ -1,0 +1,73 @@
+{
+    "id": "d2d85433-c792-44fd-8fdb-6f9fc633269a",
+    "actor": {
+        "name": "Tin Badges Prototype Admin",
+        "account": {
+            "homePage": "http://example.com/TinBadgesPHP",
+            "name": "admin"
+        },
+        "objectType": "Agent"
+    },
+    "verb": {
+        "id": "http://specification.openbadges.org/xapi/verbs/created-badge-class",
+        "display": {
+            "en": "created Open Badge"
+        }
+    },
+    "context": {
+        "contextActivities": {
+            "category": [
+                {
+                    "id": "http://specification.openbadges.org/xapi/recipe/evidence-criteria/0_0_1",
+                    "definition": {
+                        "type": "http://id.tincanapi.com/activitytype/recipe"
+                    },
+                    "objectType": "Activity"
+                }
+            ]
+        }
+    },
+    "timestamp": "2015-03-26T13:59:20.000Z",
+    "stored": "2015-03-26T13:59:28.355Z",
+    "authority": {
+        "name": "badges test",
+        "account": {
+            "homePage": "http://cloud.scorm.com/",
+            "name": "YvIMOiHt7Gch50Eq1MI"
+        },
+        "objectType": "Agent"
+    },
+    "version": "1.0.0",
+    "object": {
+        "id": "http://example.com/TinBadgesPHP/resources/badge-definition.php?badge-id=1",
+        "definition": {
+            "extensions": {
+                "http://specification.openbadges.org/xapi/extensions/badgeclass": {
+                    "@id": "http://example.com/TinBadgesPHP/resources/badge-class.php?activity-id=http%3A%2F%2Fexample.com%2FTinBadgesPHP%2Fresources%2Fbadge-definition.php%3Fbadge-id%3D1",
+                    "image": "http://example.com/TinBadgesPHP/resources/badge-image.php?activity-id=http%3A%2F%2Fexample.com%2FTinBadgesPHP%2Fresources%2Fbadge-definition.php%3Fbadge-id%3D1",
+                    "criteria": "http://example.com/TinBadgesPHP/resources/badge-criteria.php?activity-id=http%3A%2F%2Fexample.com%2FTinBadgesPHP%2Fresources%2Fbadge-definition.php%3Fbadge-id%3D1",
+                    "xapi-criteria": "http://example.com/TinBadgesPHP/resources/badge-criteria.php?activity-id=http%3A%2F%2Fexample.com%2FTinBadgesPHP%2Fresources%2Fbadge-definition.php%3Fbadge-id%3D1",
+                    "issuer": "http://example.com/TinBadgesPHP/resources/issuer.php?activity-id=http%3A%2F%2Ftincanapi.com"
+                },
+                "http://specification.openbadges.org/xapi/extensions/criteria": [
+                    {
+                        "id": "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=1",
+                        "objectType": "Activity" 
+                    },
+                    {
+                        "id": "http://example.com/TinBadgesPHP/resources/criteria.php?criteria-id=2",
+                        "objectType": "Activity" 
+                    }
+                ]
+            },
+            "name": {
+                "en-US": "Example Tin Badge number one"
+            },
+            "description": {
+                "en-US": "The first example Tin Badge"
+            },
+            "type": "http://activitystrea.ms/schema/1.0/badge"
+        },
+        "objectType": "Activity"
+    }
+}
